@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
  .first{
     
     background-size:cover;
@@ -10,10 +11,15 @@ justify-content: center;
 align-items: center;
 width: 100%;
 
+
 flex-wrap: wrap;
 
 
     
+}
+.blo{
+    font-family: "TypoPRO Bebas Neue";
+    font-size: 1.8em;
 }
 .l1
 {
@@ -29,7 +35,7 @@ position: sticky;
             display: inline-flex;
            
         
-            box-shadow: 0 0 10px rgb(0 0 0 / 40%);
+           
 
 
 
@@ -64,7 +70,7 @@ position: sticky;
      color:rgba(0, 0, 0, 0.87);
      font-size: 1.3rem;
      margin-top: 10px;
-     font-family: "TypoPRO Bebas Neue";
+     font-family: 'TypoPRO Bebas Neue';
         
         
     }
@@ -79,7 +85,8 @@ position: sticky;
    }
    .poster{
        flex-grow:inherit;
-       padding:10px;
+       
+       padding-bottom:10px;
        margin:20px;
        border : 2px solid rgba(0, 0, 0, 0.055)!important;
        border-radius: 10px;
@@ -97,8 +104,9 @@ position: sticky;
      text-align: center;
      
      padding-top: 15px;
+     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     
-     
+     font-size: 1em;
     
     
    }
@@ -108,7 +116,8 @@ position: sticky;
        display: inline;
        margin-right: 0px;
        text-align: right;
-       
+       font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+       font-size: 1em;
        
        
    }
@@ -130,6 +139,28 @@ margin-left:15%;
             text-align: center;
             width:100%;
         }
+        .imgg{
+            height:23vh;
+            width:42vh;
+        }
+        .titl{
+            font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+            font-size: 1.1em;
+            
+        }
+        .copy{
+            padding-left:80px;
+        }
+        /* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
         @media only screen and (max-width: 756px) {
             #hammburger{
@@ -153,8 +184,17 @@ margin-left:15%;
                 .blo{
                     display: block;
                 }
+                .copy{
+                    padding-left: 20px;
+                }
+                .imgg{
+                    width:95vw;
+                }
+                
             
             }
+
+
 
 
 
