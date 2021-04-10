@@ -142,7 +142,7 @@ margin-left:20%;
         }
         .imgg{
             height:200px;
-            width: 24vw ;
+           width:25vw;
         }
         .titl{
             font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
@@ -151,9 +151,9 @@ margin-left:20%;
             margin-left: 1w;
         }
         .copy{
-            position:fixed bottom;
+           
             
-            margin:0;
+           
             color:white; 
             width:100vw;
             height : 50px ;
@@ -172,7 +172,22 @@ margin-left:20%;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+  
 @media only screen and (max-width: 997px) {
     .imgg{
         width:40vw;
