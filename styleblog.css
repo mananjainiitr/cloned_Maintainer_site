@@ -126,7 +126,7 @@ position: sticky;
 
    }
    #imgref{
-margin-left:15%;
+margin-left:20%;
   }
   #hammburger{
         display:none;
@@ -140,16 +140,23 @@ margin-left:15%;
             width:100%;
         }
         .imgg{
-            height:23vh;
-            width:42vh;
+            height:200px;
+            width: 24vw ;
         }
         .titl{
             font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
             font-size: 1.1em;
-            
+            max-width: 24vw ;
+            margin-left: 1w;
         }
         .copy{
-            padding-left:80px;
+            position:fixed bottom;
+            
+            
+            color:white; 
+            width:100vw;
+            height : 50px ;
+            background-color:#293a52;
         }
         /* Hide scrollbar for Chrome, Safari and Opera */
 .scroll::-webkit-scrollbar {
@@ -162,7 +169,14 @@ margin-left:15%;
   scrollbar-width: none;  /* Firefox */
 }
 
-        @media only screen and (max-width: 756px) {
+@media only screen and (max-width: 997px) {
+    .imgg{
+        width:40vw;
+    }
+}
+
+
+        @media only screen and (max-width: 767px) {
             #hammburger{
             display:inline-block;
 
